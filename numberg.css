@@ -1,0 +1,12 @@
+h2{
+    background-color: rgb(42, 153, 60);
+  }
+
+  .jumbotron {
+    height:50%;
+    width:50%;
+  }
+
+  .jumbotron .container {
+    max-width: 150%;
+  } 

@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./numberg.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron mx-auto">
+            <h2>Number guessing game</h2>
+            <p>We have selected a random number between 1 and 100.
+                See if you can guess it in 10 turns or fewer..</p>
+                <p> We'll tell you
+                    if your guess was too high or too low</p>
+            <div class="form">
+                <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
+                <input type="submit" value="Submit" class="guessSubmit">
+            </div>
+            <div class="resultParas">
+                <p class="guesses"></p>
+                <p class="lastResult"></p>
+                <p class="lowOrHi"></p>
+            </div>
+        </div>
+    </div>
+    <script src="numberg.js"></script>
+</body>
+
+</html>
